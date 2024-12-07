@@ -22,4 +22,9 @@
         android:name="com.example.myapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_weatherForecast"
+        android:name="com.example.myapp.ui.weatherForecast.WeatherForecastFragment"
+        android:label="@string/title_weatherForecast"
+        tools:layout="@layout/fragment_weather_forecast"/>
 </navigation>
