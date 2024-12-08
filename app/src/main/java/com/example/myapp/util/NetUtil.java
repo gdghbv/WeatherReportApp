@@ -9,8 +9,8 @@ import java.net.URL;
 
 public class NetUtil {
     //第一个天气数据url用来获取七天简略天气数据，第二个天气数据url用来获取当天详细天气数据
-    public static final String WEATHER_API_URL = "http://v1.yiketianqi.com/free/week?unescape=1&appid=36717576&appsecret=qHC2689K";
-    public static final String TODAY_WEATHER_API_URL = "http://gfeljm.tianqiapi.com/free/v2030?cityid=&adcode=&appid=36717576&appsecret=qHC2689K&lng=&lat=&aqi=&hours=";
+    public static final String WEATHER_API_URL = "http://v1.yiketianqi.com/free/week?unescape=1&appid=58541194&appsecret=5ez6u7Sr";
+    public static final String TODAY_WEATHER_API_URL = "http://gfeljm.tianqiapi.com/free/v2030?cityid=&adcode=&appid=58541194&appsecret=5ez6u7Sr&lng=&lat=&aqi=&hours=";
 
     public static String doGet(String urlStr) {
         String result = "";

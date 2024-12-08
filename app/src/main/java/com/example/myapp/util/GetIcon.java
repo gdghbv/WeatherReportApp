@@ -5,6 +5,11 @@ import com.example.myapp.R;
 
 public class GetIcon {
     public  int getImgResOfWeather(String weaStr){
+        if (weaStr == null || weaStr.isEmpty()) {
+            // 如果天气字符串为 null 或空字符串，返回一个默认的图标
+            return R.drawable.qing;  // 使用你定义的默认图标
+        }
+
         int result=0;
         switch(weaStr){
             case "xue":
@@ -32,6 +37,7 @@ public class GetIcon {
                 break;
             case "qing":
                 result=R.drawable.qing;
+
 
         }
         return result;
